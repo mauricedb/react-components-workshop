@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Demo from './before/1-controlled';
+
 class App extends Component {
   render() {
     return (
@@ -14,6 +16,7 @@ class App extends Component {
         </div>
         <div className="mdl-grid">
           <div className="mdl-cell mdl-cell--8-col mdl-cell--2-offset">
+            <Demo />
           </div>
         </div>
       </div>
