@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 // import Demo from './before/1-controlled';
-import Demo from './done/1-controlled';
+// import Demo from './done/1-controlled';
+// import Demo from './before/2-fragments';
+import Demo from './done/2-fragments';
 
 class App extends Component {
   render() {

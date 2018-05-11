@@ -24,3 +24,8 @@
 .mdl-textfield {
   width: 100%;
 }
+
+.fragment-demo > .content {
+  color: green;
+  font-family: fantasy;
+}
