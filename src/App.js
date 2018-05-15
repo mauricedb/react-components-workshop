@@ -6,8 +6,10 @@ import './App.css';
 // import Demo from './done/1-controlled';
 // import Demo from './before/2-fragments';
 // import Demo from './done/2-fragments';
-import Demo from './before/3-errors';
+// import Demo from './before/3-errors';
 // import Demo from './done/3-errors';
+// import Demo from './before/4-cross-cutting';
+import Demo from './done/4-cross-cutting';
 
 class App extends Component {
   static displayName = 'App';

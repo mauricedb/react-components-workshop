@@ -1,0 +1,39 @@
+/* These CSS styles all apply to the SVG elements defined below */
+.analog-clock {
+  /* styles for everything in the clock */
+  stroke: black;
+  /* black lines */
+  stroke-linecap: round;
+  /* with rounded ends */
+  fill: #eef;
+  /* on a light blue gray background */
+}
+.analog-clock-face {
+  stroke-width: 3px;
+}
+/* clock face outline */
+.analog-clock-ticks {
+  stroke-width: 2;
+}
+/* lines that mark each hour */
+.analog-clock-hourhand {
+  stroke-width: 5px;
+}
+/* wide hour hand */
+.analog-clock-minutehand {
+  stroke-width: 3px;
+}
+/* narrow minute hand */
+.analog-clock-secondhand {
+  stroke-width: 1px;
+}
+
+.analog-clock-numbers {
+  /* how to draw the numbers */
+  font-family: sans-serif;
+  font-size: 7pt;
+  font-weight: bold;
+  text-anchor: middle;
+  stroke: none;
+  fill: black;
+}
