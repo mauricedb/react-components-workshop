@@ -9,7 +9,9 @@ import './App.css';
 // import Demo from './before/3-errors';
 // import Demo from './done/3-errors';
 // import Demo from './before/4-cross-cutting';
-import Demo from './done/4-cross-cutting';
+// import Demo from './done/4-cross-cutting';
+// import Demo from './before/5-context';
+import Demo from './done/5-context';
 
 class App extends Component {
   static displayName = 'App';
