@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import LabeledInput from './LabeledInput';
 import LabeledTextArea from './LabeledTextArea';
 
-class Controlled extends Component {
+class ControlledDemo extends Component {
   state = {
     movie: {
       title: 'Star Wars: The Last Jedi',
@@ -69,4 +69,4 @@ class Controlled extends Component {
   };
 }
 
-export default Controlled;
+export default ControlledDemo;
