@@ -5,9 +5,13 @@ import './App.css';
 // import Demo from './before/1-controlled';
 // import Demo from './done/1-controlled';
 // import Demo from './before/2-fragments';
-import Demo from './done/2-fragments';
+// import Demo from './done/2-fragments';
+import Demo from './before/3-errors';
+// import Demo from './done/3-errors';
 
 class App extends Component {
+  static displayName = 'App';
+
   render() {
     return (
       <div>

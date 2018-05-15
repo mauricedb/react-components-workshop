@@ -16,10 +16,13 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
 
 .mdl-textfield {
   width: 100%;
@@ -28,4 +31,13 @@
 .fragment-demo > .content {
   color: green;
   font-family: fantasy;
+}
+
+.error-card {
+  width: 100%;
+}
+
+.error-card > .mdl-card__title {
+  background-color: #d50000;
+  color: #fff;
 }
