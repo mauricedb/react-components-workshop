@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ErrorCard from '../../components/ErrorCard';
+
 class ErrorBoundary extends Component {
   static displayName = 'ErrorBoundary';
 
@@ -17,21 +19,7 @@ class ErrorBoundary extends Component {
     const { error, errorInfo } = this.state;
 
     if (error) {
-      return (
-        <div className="mdl-card mdl-shadow--2dp error-card">
-          <div className="mdl-card__title mdl-card--expand">
-            <h2 className="mdl-card__title-text">{error.message}</h2>
-          </div>
-          <div className="mdl-card__supporting-text">
-            <h3>Stack trace</h3>
-            <pre>{error.stack}</pre>
-          </div>
-          <div className="mdl-card__supporting-text">
-            <h3>Component stack</h3>
-            <pre>{errorInfo.componentStack}</pre>
-          </div>
-        </div>
-      );
+      return <ErrorCard error={error} errorInfo={errorInfo} />;
     }
 
     return children;

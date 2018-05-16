@@ -32,12 +32,3 @@
   color: green;
   font-family: fantasy;
 }
-
-.error-card {
-  width: 100%;
-}
-
-.error-card > .mdl-card__title {
-  background-color: #d50000;
-  color: #fff;
-}
