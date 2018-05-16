@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import SimpleClock from './SimpleClock';
+import SimpleClock from '../../components/SimpleClock';
 
 class SimpleClockWithCurrentTime extends Component {
   state = { now: new Date() };

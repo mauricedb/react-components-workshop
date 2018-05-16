@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import SimpleClock from './SimpleClock';
-import AnalogClock from './AnalogClock';
+import SimpleClock from '../../components/SimpleClock';
+import AnalogClock from '../../components/AnalogClock';
 import SimpleClockWithCurrentTime from './SimpleClockWithCurrentTime';
 import AnalogClockWithCurrentTime from './AnalogClockWithCurrentTime';
 

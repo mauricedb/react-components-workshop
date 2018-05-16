@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import AnalogClock from './AnalogClock';
+import AnalogClock from '../../components/AnalogClock';
 
 class AnalogClockWithCurrentTime extends Component {
   state = { now: new Date() };
