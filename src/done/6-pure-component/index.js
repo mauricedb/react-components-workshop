@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Primes from './Primes';
 import LabeledInput from './LabeledInput';
+import MyProfiler from './MyProfiler';
 
 class PerfDemo extends Component {
   state = {
@@ -21,21 +22,24 @@ class PerfDemo extends Component {
         <h2>Pure Components</h2>
 
         <div>
-          <LabeledInput
-            label="Firstname:"
-            value={firstName}
-            name="firstName"
-            onChange={this.onChange}
-          />
-          <LabeledInput
-            label="Max Prime:"
-            value={primeCount}
-            type="number"
-            name="primeCount"
-            onChange={this.onChange}
-          />
-
-          <Primes primeCount={primeCount} />
+          <MyProfiler id="inputs">
+            <LabeledInput
+              label="Firstname:"
+              value={firstName}
+              name="firstName"
+              onChange={this.onChange}
+            />
+            <LabeledInput
+              label="Max Prime:"
+              value={primeCount}
+              type="number"
+              name="primeCount"
+              onChange={this.onChange}
+            />
+          </MyProfiler>
+          <MyProfiler id="primes">
+            <Primes primeCount={primeCount} />
+          </MyProfiler>
         </div>
       </div>
     );

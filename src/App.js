@@ -12,8 +12,8 @@ import './App.css';
 // import Demo from './done/4-cross-cutting';
 // import Demo from './before/5-context';
 // import Demo from './done/5-context';
-import Demo from './before/6-pure-component';
-// import Demo from './done/6-pure-component';
+// import Demo from './before/6-pure-component';
+import Demo from './done/6-pure-component';
 
 class App extends Component {
   static displayName = 'App';
