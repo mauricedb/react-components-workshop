@@ -13,7 +13,9 @@ import './App.css';
 // import Demo from './before/5-context';
 // import Demo from './done/5-context';
 // import Demo from './before/6-pure-component';
-import Demo from './done/6-pure-component';
+// import Demo from './done/6-pure-component';
+// import Demo from './before/7-derived-state';
+import Demo from './done/7-derived-state'
 
 class App extends Component {
   static displayName = 'App';

@@ -28,6 +28,7 @@ class MyProfiler extends Component {
 
   render() {
     const { children, id } = this.props;
+
     return (
       <Profiler id={id} onRender={this.onRender}>
         {children}
