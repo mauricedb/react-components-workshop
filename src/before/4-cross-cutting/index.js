@@ -5,7 +5,7 @@ import AnalogClock from '../../components/AnalogClock';
 import SimpleClockWithCurrentTime from './SimpleClockWithCurrentTime';
 import AnalogClockWithCurrentTime from './AnalogClockWithCurrentTime';
 
-class ErrorsDemo extends Component {
+class CrossCuttingConcernsDemo extends Component {
   render() {
     return (
       <div>
@@ -36,4 +36,4 @@ class ErrorsDemo extends Component {
   }
 }
 
-export default ErrorsDemo;
+export default CrossCuttingConcernsDemo;
