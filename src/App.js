@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// import Demo from './before/1-controlled';
+import Demo from './before/1-controlled';
 // import Demo from './done/1-controlled';
 // import Demo from './before/2-fragments';
 // import Demo from './done/2-fragments';
@@ -12,10 +12,12 @@ import './App.css';
 // import Demo from './done/4-cross-cutting';
 // import Demo from './before/5-context';
 // import Demo from './done/5-context';
-// import Demo from './before/6-pure-component';
-// import Demo from './done/6-pure-component';
-// import Demo from './before/7-derived-state';
-import Demo from './done/7-derived-state'
+// import Demo from './before/6-profiler';
+// import Demo from './done/6-profiler';
+// import Demo from './before/7-pure-component';
+// import Demo from './done/7-pure-component';
+// import Demo from './before/8-derived-state';
+// import Demo from './done/8-derived-state'
 
 class App extends Component {
   static displayName = 'App';

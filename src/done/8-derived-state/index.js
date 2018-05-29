@@ -4,7 +4,7 @@ import Primes from './Primes';
 import LabeledInput from './LabeledInput';
 import MyProfiler from './MyProfiler';
 
-class PerfDemo extends Component {
+class DerivedStateDemo extends Component {
   state = {
     primeCount: 2500,
     firstName: ''
@@ -19,7 +19,7 @@ class PerfDemo extends Component {
 
     return (
       <div>
-        <h2>Pure Components</h2>
+        <h2>getDerivedStateFromProps</h2>
 
         <div>
           <MyProfiler id="inputs">
@@ -46,4 +46,4 @@ class PerfDemo extends Component {
   }
 }
 
-export default PerfDemo;
+export default DerivedStateDemo;
