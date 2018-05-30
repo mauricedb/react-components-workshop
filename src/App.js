@@ -18,6 +18,8 @@ import Demo from './before/1-controlled';
 // import Demo from './done/7-pure-component';
 // import Demo from './before/8-derived-state';
 // import Demo from './done/8-derived-state'
+// import Demo from './before/9-strict-mode';
+// import Demo from './done/9-strict-mode';
 
 class App extends Component {
   static displayName = 'App';
